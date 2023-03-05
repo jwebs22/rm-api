@@ -33,7 +33,7 @@ function Fetch() {
     return (
       data.map(character =>(
         <div id="card">
-            <img id ="characterImage" src = {character.characterImage} alt="image of character"/>
+            <img id ="characterImage" src = {character.characterImage} alt="character"/>
             <ul>
                 <li>{character.name}</li>
                 <li>{character.gender}</li>
